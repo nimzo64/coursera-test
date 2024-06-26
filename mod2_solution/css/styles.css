@@ -1,6 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 /********** Base styles **********/
+
+body{
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
 * {
   box-sizing: border-box;
 }
@@ -24,8 +29,13 @@ p {
   width: 100%;
 }
 
+#head1{
+    text-align: center;
+    font-size: 3em;
+}
+
 /********** Large devices only **********/
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
     border: 1px solid green;
@@ -69,7 +79,12 @@ p {
 }
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+
+/****** Original "@media (min-width: 992px) and (max-width: 1199px) {" *******/
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
     border: 1px solid green;
@@ -111,4 +126,8 @@ p {
     width: 100%;
   }
 }
+
+
+
+
 
