@@ -98,6 +98,8 @@ p {
     font-size: 1.25em;
     background-color: #DEDEFF;
     padding: 8px;
+    margin-left: 12px;
+    margin-right: 12px; 
   }
   .col-md-1 {
     width: 8.33%;
@@ -145,6 +147,8 @@ p {
     font-size: 1.6em;
     background-color: #DEDEFF;
     padding: 8px;
+    margin-left: 12px;
+    margin-right: 12px; 
   }
   .col-sm-1 {
     width: 8.33%;
