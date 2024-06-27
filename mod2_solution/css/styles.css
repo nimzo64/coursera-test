@@ -49,6 +49,34 @@ p {
     text-align: center;
     border-left: 1px solid #9C3D22;
     border-bottom: 1px solid #9C3D22;
+    min-width: 100px;
+}
+
+.label2{
+    float: right;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: #C1FFB7;
+    text-align: center;
+    border-left: 1px solid #166100;
+    border-bottom: 1px solid #166100;
+    min-width: 100px;
+}
+
+.label3{
+    float: right;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: #0C207F;
+    text-align: center;
+    border-left: 1px solid #C9CDFC;
+    border-bottom: 1px solid #C9CDFC;
+    min-width: 100px;
+    color: aliceblue;
 }
 
 .interior{
@@ -125,6 +153,7 @@ p {
     margin-right: 0.5%;
     margin-top: 12px;
     margin-bottom: 12px;
+    font-size: 1.25em;
   }
   .col-md-1 {
     width: 5.33%;
@@ -174,6 +203,7 @@ p {
     margin-right: 0.5%;
     margin-top: 12px;
     margin-bottom: 12px;
+    font-size: 1.6em;
   }
   .col-sm-1 {
     width: 5.33%;
