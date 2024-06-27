@@ -51,10 +51,6 @@ p {
     border-bottom: 1px solid #9C3D22;
 }
 
-.interior{
-    margin: 2%;
-}
-
 #head1{
     text-align: center;
     font-size: 3em;
@@ -69,6 +65,8 @@ p {
     background-color: #DEDEFF;
     margin-left: 0.5%;
     margin-right: 0.5%;
+    padding-left: 1%;
+    padding-bottom: 1%;
     margin-top: 12px;
     margin-bottom: 12px;
   }
@@ -123,6 +121,7 @@ p {
     background-color: #DEDEFF;
     margin-left: 0.5%;
     margin-right: 0.5%;
+    padding: 1%;
     margin-top: 12px;
     margin-bottom: 12px;
   }
@@ -172,6 +171,7 @@ p {
     background-color: #DEDEFF;
     margin-left: 0.5%;
     margin-right: 0.5%;
+    padding: 1%;
     margin-top: 12px;
     margin-bottom: 12px;
   }
