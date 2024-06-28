@@ -9,3 +9,7 @@ h1{
 #header-nav{
     background-color: #E8E8E8;
 }
+
+header{
+    border: 1px solid #552222;
+}
