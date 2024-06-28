@@ -8,8 +8,13 @@ h1{
 
 #header-nav{
     background-color: #E8E8E8;
+    height: auto;
 }
 
 header{
-    border: 1px solid #552222;
+    border: 1.5px solid #B70404;
+}
+
+.nav-brand{
+    height: auto;
 }
