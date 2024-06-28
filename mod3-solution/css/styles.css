@@ -15,7 +15,9 @@ header{
     border: 1.5px solid #B70404;
 }
 
-.nav-brand{
+.navbar-brand{
     height: auto;
+    font-size: 2.25em;
+    font-weight: 700;
 }
 
