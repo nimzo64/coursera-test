@@ -1,13 +1,20 @@
 body{
     font-family: "Oxygen", sans-serif;
+    background-color: #E7EAFF
 }
 
 h1{
    font-family: "Oxygen", sans-serif; 
 }
 
+h2{
+   font-family: "Oxygen", sans-serif; 
+}
 
 
+h3{
+   font-family: "Oxygen", sans-serif; 
+}
 
 #header-nav{
     min-height: 36px;
@@ -32,6 +39,11 @@ header{
 
 .inner-div-text{
     color: #A10032;
+}
+
+.row{
+    background-color: #DEFDE2;
+    
 }
 
 
