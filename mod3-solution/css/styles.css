@@ -6,18 +6,32 @@ h1{
    font-family: "Oxygen", sans-serif; 
 }
 
+
+
+
 #header-nav{
-    background-color: #E8E8E8;
-    height: auto;
+    min-height: 52px;
+    background-color: #E3B2E9;
+    opacity: 1;
 }
 
 header{
     border: 1.5px solid #B70404;
+    min-height: 52px;
+    color: #000000;
 }
 
 .navbar-brand{
     height: auto;
     font-size: 2.25em;
     font-weight: 700;
+    margin-left: 36px;
+    color: #A10032;
 }
+
+.inner-div-text{
+    color: #A10032;
+}
+
+
 
