@@ -11,12 +11,13 @@ h1{
 
 #header-nav{
     min-height: 52px;
-    background-color: #E3B2E9;
-    opacity: 1;
+    background-color: #F8E7FF;
+    border: 1.5px solid #630088;
+    border-radius: 0px;
 }
 
 header{
-    border: 1.5px solid #B70404;
+    
     min-height: 52px;
     color: #000000;
 }
