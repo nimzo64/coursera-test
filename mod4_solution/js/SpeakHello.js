@@ -6,7 +6,7 @@
 // the "speak" method and which you will expose to the global context
 // See Lecture 52, part 1
 // var helloSpeaker =
-
+/*
 // DO NOT attach the speakWord variable to the 'helloSpeaker' object.
 var speakWord = "Hello";
 
@@ -22,3 +22,14 @@ function speak(name) {
 // See Lecture 52, part 2
 // (Note, Step 6 will be done in the SpeakGoodBye.js file.)
 // xxxx.xxxx = helloSpeaker;
+*/
+
+(function(window) {
+    var byeSpeaker = new Object();
+    var speakWord = "Good Bye";
+    byeSpeaker.speak = function speak(name) {
+        console.log(speakWord + " " + name);
+    };
+    window.byeSpeaker = byeSpeaker;
+})(window);
+
