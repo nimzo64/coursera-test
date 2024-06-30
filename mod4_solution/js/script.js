@@ -71,6 +71,7 @@
       document.getElementById("maindiv").innerHTML = '<div>'+window.byeSpeaker.speak(names[i])+'</div>';
     } else {
       window.helloSpeaker.speak(names[i]);
+      document.getElementById("maindiv").innerHTML = '<div>'+window.helloSpeaker.speak(names[i])+'</div>';
     }
   }
 })(window);
